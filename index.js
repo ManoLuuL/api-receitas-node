@@ -25,10 +25,10 @@ app.use("/ingredientes", ingredientsRoutes);
 app.use("/favorite", favoriteRoutes);
 
 const client = new Client({
-  host: "ep-white-mud-691983-pooler.ap-southeast-1.postgres.vercel-storage.com",
-  user: "default",
-  password: "r7PNKsU5qVdg",
-  database: "verceldb",
+  host: "",
+  user: "",
+  password: "",
+  database: "",
   port: 5432,
   ssl: {
     rejectUnauthorized: false,
